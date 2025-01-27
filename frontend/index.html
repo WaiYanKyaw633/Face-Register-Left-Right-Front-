@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>မျက်နှာ🧑</h1>
+    <span class="custom-br">(အတည်ပြုခြင်း!!!)</span>
+    <div id="camera-container">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="overlay"></canvas>
+    </div>
+    <p id="status">Initializing...</p>
+    
+    <button id="saveButton" disabled>Save Face</button>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
