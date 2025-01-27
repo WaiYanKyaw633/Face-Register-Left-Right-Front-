@@ -1,1 +1,1 @@
-Face-Register with Node.js TensorFlow
+Face-Register(left,right,front) with Node.js TensorFlow
